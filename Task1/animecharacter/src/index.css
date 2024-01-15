@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.searchPart{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.searchInput{
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.searchInput:focus{
+    border: none;
+    outline: none;
+}
+
+.resultsPart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
